@@ -1,0 +1,24 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to EazyBank cards related prod APIs "
+  contactDetails:
+    name: "Test Owner - Product Owner"
+    email: "testowner@eazybank.com"
+  onCallSupport:
+    - (617) 432-2356
+    - (936) 564-8721
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
