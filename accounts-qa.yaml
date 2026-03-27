@@ -10,6 +10,12 @@ accounts:
     - (666) 265-3765
     - (666) 734-8371
 
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
 management:
     endpoints:
       web:
