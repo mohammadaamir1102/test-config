@@ -1,24 +1,14 @@
-server:
-  port: 8090
+build:
+  version: "2.0"
 
-spring:
-  application:
-    name: loans
-
-
-  datasource:
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    username: sa
-    password: ''
-  h2:
-    console:
-      enabled: true
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+loans:
+  message: "Welcome to EazyBank loans related QA APIs "
+  contactDetails:
+    name: "Test QA - QA Lead - BusRefresh"
+    email: "testqa@eazybank.com"
+  onCallSupport:
+    - (310) 875-4367
+    - (201) 236-1267
 
 management:
   endpoints:
@@ -30,4 +20,4 @@ management:
     host: "localhost"
     port: 5672
     username: "guest"
-    password: "guest"  
+    password: "guest"
