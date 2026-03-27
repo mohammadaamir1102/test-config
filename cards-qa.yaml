@@ -1,0 +1,23 @@
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to EazyBank cards related QA APIs "
+  contactDetails:
+    name: "Test QA - QA Lead"
+    email: "testqa@eazybank.com"
+  onCallSupport:
+    - (310) 875-4367
+    - (201) 236-1267
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
