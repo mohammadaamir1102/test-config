@@ -4,7 +4,7 @@ build:
 accounts:
   message: "{cipher}c4ace2f96b672b75d15dd4a64422aec24a7e02343b4bee4044a34643b9db5e08c10faa71c2b14de33c9d9ede076588207e4c341662d6d8809f9f035615d1edb751cce229922794ea26dbf62004754c278d24dcc55badc489c6df562acc2b9b44"
   contactDetails:
-    name: "Test QA - QA Lead"
+    name: "Test QA - QA Lead - /monitor"
     email: "testqa@eazybank.com"
   onCallSupport:
     - (666) 265-3765
